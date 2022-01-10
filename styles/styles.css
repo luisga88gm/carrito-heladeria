@@ -1,0 +1,29 @@
+* {
+  font-family: "Sansita", sans-serif;
+}
+
+.header {
+  background-color: #f8f7ff;
+  color: #9381ff;
+  font-size: 2.25 rem;
+}
+
+.footer {
+  background-color: #9381ff;
+  color: #f8f7ff;
+}
+
+.headingColor {
+  color: #9381ff;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.buttonCloseCart {
+  background-color: #9381ff;
+  color: #f8f7ff;
+  border-style: none;
+}

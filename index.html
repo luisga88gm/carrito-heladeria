@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heladería Digital-IceCream</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script defer src="js/cart.js"></script>
+    <script defer src="js/elements.js"></script>
+</head>
+<body>
+<!-- Header -->
+  <div class="container-fluid header">
+    <div class="row">
+      <div class="col d-flex justify-content-center py-3">
+        <h1>Heladería Digital-IceCream</h1>
+      </div>
+    </div>
+  </div>
+
+<!-- Selecciona la cantidad del pedido -->
+  <div class="container">
+    <div class="row my-3">
+      <div class="col d-flex justify-content-start">
+        <div class="row"><h2 class="headingColor">¿Cuanto helado te gustaría llevar?</h2></div>
+      </div>
+      
+    </div>
+    <div class="row my-3">
+      <div class="col d-flex justify-content-start" id="groupRadioButtons"></div>
+    </div>
+  </div>
+
+<!-- Selecciona los gustos -->
+<div class="container my-3">
+  <div class="row mb-3">
+    <div class="col-lg-4">
+      <div class="col d-flex justify-content-start">
+        <h2 class="headingColor">Ahora, elegí tus gustos!</h2>
+      </div>
+      <!--Accordion-->
+      <div class="accordion accordion-flush" id="accordion-container"></div>
+    </div>
+    <div class="col-lg-4"></div>
+    
+    <!--Detalle del pedido-->
+    <div class="col-lg-4">
+      <div class=" row box border border-dark">
+        <div class="detail border">
+          <h2 class="headingColor">Detalle de tu pedido:</h2>
+          <h2 id="product-cart"></h2>
+          <ul id="tastes-cart">
+
+          </ul>
+        </div>
+        <div class="finPedido border">
+          <div class="row">
+            <h2 class="headingColor">Dejanos tu teléfono, por favor</h2>
+            <input type="number" name="" id="">
+            <h2 class="headingColor">Aclaraciones, notas?</h2>
+            <textarea name="" id="" cols="" rows="10"></textarea>
+          </div>
+          <div id="button-close-cart" class="row">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Cierra detalle del pedido-->
+  </div>
+</div>
+
+
+<!-- Footer -->
+<div class="container-fluid footer">
+  <div class="row">
+    <div class="col d-flex justify-content-center py-3">
+      <h4>© 2022 - Digital-IceCream, todos los derechos (y gustos, palitos, cucuruchos, etc) reservados</h4>
+    </div>
+  </div>
+</div>
+<script src="js/jQuery.js"></script>
+</body>
+</html>

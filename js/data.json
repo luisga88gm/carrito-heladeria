@@ -1,0 +1,81 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "nombre": "2Kg",
+            "precio": 1059.99,
+            "gustosMax": 4
+        },
+        {
+            "id": 2,
+            "nombre": "1Kg",
+            "precio": 619.99,
+            "gustosMax": 4
+        },
+        {
+            "id": 3,
+            "nombre": "1/2Kg",
+            "precio": 339.99,
+            "gustosMax": 4
+        },
+        {
+            "id": 4,
+            "nombre": "1/4Kg",
+            "precio": 179.99,
+            "gustosMax": 4
+        }
+    ],
+    "categoriasGustos": [
+        {
+            "nombre": "Chocolates",
+            "gustos": [
+                { "nombre": "Chocolate amargo" },
+                { "nombre": "Chocolate suizo" },
+                { "nombre": "Chocolate con almendras" },
+                { "nombre": "Chocolate blanco" },
+                { "nombre": "Chocolate Kinder" },
+                { "nombre": "Selva negra" }
+            ]
+        },
+        {
+            "nombre": "Cremas",
+            "gustos": [
+                { "nombre": "Vainilla" },
+                { "nombre": "Granizado" },
+                { "nombre": "Crema americana" },
+                { "nombre": "Crema rusa" },
+                { "nombre": "Menta granizada" }
+            ]
+        },
+        {
+            "nombre": "Dulces de leche",
+            "gustos": [
+                { "nombre": "Dulce de leche" },
+                { "nombre": "Super dulce de leche" },
+                { "nombre": "Dulce de leche granizado" },
+                { "nombre": "Dulce de leche con nuez" }
+            ]
+        },
+        {
+            "nombre": "Frutas al agua",
+            "gustos": [
+                { "nombre": "Limón" },
+                { "nombre": "Naranja" },
+                { "nombre": "Frutilla al agua" },
+                { "nombre": "Maracuyá" }
+            ]
+        },
+        {
+            "nombre": "Cremas especiales",
+            "gustos": [
+                { "nombre": "Sambayón" },
+                { "nombre": "Crema Flan" },
+                { "nombre": "Bananita Dolca" },
+                { "nombre": "Tiramisú" },
+                { "nombre": "Tramontana" },
+                { "nombre": "Cappuccino granizado" },
+                { "nombre": "Mascarpone con frutos rojos" }
+            ]
+        }
+    ]
+}
